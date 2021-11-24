@@ -12,7 +12,7 @@ export default function RenditionsSidebar(props: Props): ReactElement {
     const { items, selectedItem, onSidebarItemClick } = props
 
     return (
-        <div className="renditions__sidebar">
+        <div className="renditions__sidebar" data-testid="sidebar">
             {items.map((item) => (
                 <RenditionsSidebarItem
                     key={item}

@@ -11,7 +11,8 @@
     "test:watch": "jest --watch",
     "test:update-snapshot": "jest --updateSnapshot",
     "lint:test": "eslint \"src/**/*.{ts,tsx}\" --quiet",
-    "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --quiet --fix"
+    "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --quiet --fix",
+    "e2e": "cypress open"
   },
   "author": "senthilc",
   "license": "",
@@ -50,6 +51,7 @@
     "bootstrap-loader": "^3.0.0",
     "bootstrap-sass": "^3.3.7",
     "css-loader": "^6.2.0",
+    "cypress": "^9.1.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^7.32.0",
