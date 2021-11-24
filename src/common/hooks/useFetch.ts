@@ -20,9 +20,7 @@ function useFetch(
         try {
             await setLoading(true)
             await setError('')
-            const d = await api(params)
-            console.log(d)
-            const { data } = d
+            const { data } = await api(params)
             await setResponse((prev) => (mergeResponse ? [...prev, ...data] : data))
             setLoading(false)
         } catch (err) {
