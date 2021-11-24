@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> When value is empty should match snapshot 1`] = `
+<div>
+  <form
+    class="search"
+  >
+    <input
+      class="search__input form-control"
+      data-testid="input"
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+    <svg
+      class="search__icon icon"
+    >
+      <use
+        xlink:href="#undefined"
+      />
+    </svg>
+    
+  </form>
+</div>
+`;
+
+exports[`<SearchBar /> When value is provided should match snapshot 1`] = `
+<div>
+  <form
+    class="search"
+  >
+    <input
+      class="search__input form-control"
+      data-testid="input"
+      placeholder="Search"
+      type="text"
+      value="Happy"
+    />
+    <svg
+      class="search__icon icon"
+    >
+      <use
+        xlink:href="#undefined"
+      />
+    </svg>
+    <svg
+      class="search__clear icon"
+      data-testid="clear"
+    >
+      <use
+        xlink:href="#undefined"
+      />
+    </svg>
+  </form>
+</div>
+`;

@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GiphyHome /> Modal When an item is clicked should match snapshot 1`] = `
+<div
+  class="modal"
+  data-testid="modal"
+>
+  <div
+    class="modal__header"
+  >
+    <div
+      class="modal__header__title"
+    >
+      test1
+    </div>
+    <svg
+      class="modal__header__close icon"
+      data-testid="modal-close"
+    >
+      <use
+        xlink:href="#undefined"
+      />
+    </svg>
+  </div>
+  <div
+    class="modal__body"
+  >
+    <div
+      class="renditions"
+    >
+      <div
+        class="renditions__sidebar"
+      >
+        <div
+          class="renditions__sidebar__item active"
+          data-testid="sidebar-item"
+        >
+          Original
+        </div>
+        <div
+          class="renditions__sidebar__item "
+          data-testid="sidebar-item"
+        >
+          480 W Still
+        </div>
+      </div>
+      <div
+        class="renditions__body"
+      >
+        <img
+          src="https://www.superman.com/img.gif"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GiphyHome /> When search is used should match snapshot 1`] = `
+<div
+  class="giphy-home container"
+  data-testid="giphy-home"
+>
+  <form
+    class="search"
+  >
+    <input
+      class="search__input form-control"
+      data-testid="input"
+      placeholder="Search"
+      type="text"
+      value="Meh"
+    />
+    <svg
+      class="search__icon icon"
+    >
+      <use
+        xlink:href="#undefined"
+      />
+    </svg>
+    <svg
+      class="search__clear icon"
+      data-testid="clear"
+    >
+      <use
+        xlink:href="#undefined"
+      />
+    </svg>
+  </form>
+  <div
+    class="grid"
+    data-testid="grid"
+  >
+    <div
+      class="grid__header"
+    >
+      <span>
+        Search results
+      </span>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      />
+      <div
+        class="col"
+      />
+      <div
+        class="col"
+      />
+      <div
+        class="col"
+      />
+    </div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`<GiphyHome /> should match snapshot 1`] = `
+<div>
+  <div
+    class="giphy-home container"
+    data-testid="giphy-home"
+  >
+    <form
+      class="search"
+    >
+      <input
+        class="search__input form-control"
+        data-testid="input"
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+      <svg
+        class="search__icon icon"
+      >
+        <use
+          xlink:href="#undefined"
+        />
+      </svg>
+      
+    </form>
+    <div
+      class="grid"
+      data-testid="grid"
+    >
+      <div
+        class="grid__header"
+      >
+        <svg
+          class="undefined icon"
+        >
+          <use
+            xlink:href="#undefined"
+          />
+        </svg>
+        <span>
+          Trending
+        </span>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <div
+            class="grid__item cursor-pointer"
+            data-testid="grid-item"
+          >
+            <img
+              class="giphy-home__image"
+              src="https://www.superman.com/img.gif"
+            />
+          </div>
+        </div>
+        <div
+          class="col"
+        />
+        <div
+          class="col"
+        />
+        <div
+          class="col"
+        />
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;

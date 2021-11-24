@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Renditions /> When an item is selected should match snapshot 1`] = `
+<div>
+  <div
+    class="renditions"
+  >
+    <div
+      class="renditions__sidebar"
+    >
+      <div
+        class="renditions__sidebar__item "
+        data-testid="sidebar-item"
+      >
+        Original
+      </div>
+      <div
+        class="renditions__sidebar__item "
+        data-testid="sidebar-item"
+      >
+        Downsized
+      </div>
+      <div
+        class="renditions__sidebar__item active"
+        data-testid="sidebar-item"
+      >
+        Hd
+      </div>
+    </div>
+    <div
+      class="renditions__body"
+    >
+      <video
+        autoplay=""
+        loop=""
+        src="https://www.avengers.com/angry-hulk.mp4"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Renditions /> should match snapshot 1`] = `
+<div>
+  <div
+    class="renditions"
+  >
+    <div
+      class="renditions__sidebar"
+    >
+      <div
+        class="renditions__sidebar__item active"
+        data-testid="sidebar-item"
+      >
+        Original
+      </div>
+      <div
+        class="renditions__sidebar__item "
+        data-testid="sidebar-item"
+      >
+        Downsized
+      </div>
+      <div
+        class="renditions__sidebar__item "
+        data-testid="sidebar-item"
+      >
+        Hd
+      </div>
+    </div>
+    <div
+      class="renditions__body"
+    >
+      <img
+        src="https://www.avengers.com/angry-hulk.gif"
+      />
+    </div>
+  </div>
+</div>
+`;

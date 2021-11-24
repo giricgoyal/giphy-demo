@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> should match snapshot 1`] = `
+<div>
+  <div
+    class="renditions__sidebar"
+  >
+    <div
+      class="renditions__sidebar__item "
+      data-testid="sidebar-item"
+    >
+      Captain America
+    </div>
+    <div
+      class="renditions__sidebar__item "
+      data-testid="sidebar-item"
+    >
+      Black Widow
+    </div>
+    <div
+      class="renditions__sidebar__item active"
+      data-testid="sidebar-item"
+    >
+      Thor
+    </div>
+  </div>
+</div>
+`;

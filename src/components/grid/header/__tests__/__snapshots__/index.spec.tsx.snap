@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridHeader /> should match snapshot 1`] = `
+<div>
+  <div
+    class="grid__header"
+  >
+    <div>
+      Name's Bond! James Bond!
+    </div>
+  </div>
+</div>
+`;

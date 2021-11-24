@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> When isLoading is false should match snapshot 1`] = `
+<div>
+  <div
+    class="grid"
+    data-testid="grid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <div>
+          No time to die
+        </div>
+        <div>
+          The man with the golden gun
+        </div>
+        <div>
+          License to kill
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div>
+          Spectre
+        </div>
+        <div>
+          Dr. No
+        </div>
+      </div>
+      <div
+        class="col"
+      >
+        <div>
+          Casino Royale
+        </div>
+        <div>
+          For your eyes only
+        </div>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`<Grid /> When isLoading is true should match snapshot 1`] = `
+<div>
+  <div
+    class="grid"
+    data-testid="grid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      />
+      <div
+        class="col"
+      />
+      <div
+        class="col"
+      />
+    </div>
+    <div
+      class="grid__loader"
+    >
+      <div
+        class="spinner-border"
+      />
+    </div>
+    <div />
+  </div>
+</div>
+`;

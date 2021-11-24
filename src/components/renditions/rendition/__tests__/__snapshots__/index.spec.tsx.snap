@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rendition /> When data is {} should match snapshot 1`] = `<div />`;
+
+exports[`<Rendition /> When neither url or webp is sent in data should match snapshot 1`] = `
+<div>
+  <video
+    autoplay=""
+    loop=""
+    src="https://www.batman.com/portrait.mp4"
+  />
+</div>
+`;
+
+exports[`<Rendition /> When url is not sent in data should match snapshot 1`] = `
+<div>
+  <img
+    src="https://www.batman.com/portrait.webp"
+  />
+</div>
+`;
+
+exports[`<Rendition /> When url is sent in data should match snapshot 1`] = `
+<div>
+  <img
+    src="https://www.batman.com/portrait.gif"
+  />
+</div>
+`;

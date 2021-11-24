@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> When isVisible is false should match snapshot 1`] = `<div />`;
+
+exports[`<Modal /> When isVisible is true should match snapshot 1`] = `
+<div>
+  <div
+    class="modal-overlay"
+    data-testid="modal-overlay"
+  />
+  <div
+    class="modal"
+    data-testid="modal"
+  >
+    <div
+      class="modal__header"
+    >
+      <div
+        class="modal__header__title"
+      >
+        Some modal
+      </div>
+      <svg
+        class="modal__header__close icon"
+        data-testid="modal-close"
+      >
+        <use
+          xlink:href="#undefined"
+        />
+      </svg>
+    </div>
+    <div
+      class="modal__body"
+    >
+      <div>
+        I am Thor! God of thunder.
+      </div>
+    </div>
+  </div>
+</div>
+`;

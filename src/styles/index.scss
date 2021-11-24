@@ -1,0 +1,164 @@
+@import '~bootstrap/scss/bootstrap';
+
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.giphy-home {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+        width: 100%;
+    }
+}
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.grid {
+    &__item {
+        position: relative;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 2px rgba(0, 90, 250, 0.05), 0 4px 4px rgba(0, 90, 250, 0.05), 0 8px 8px rgba(0, 90, 250, 0.05),
+            0 16px 16px rgba(0, 90, 250, 0.05);
+        color: #fff;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    &__header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    &__loader {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    &__input {
+        padding-left: 36px;
+    }
+
+    &__icon {
+        position: absolute;
+        margin-left: 10px;
+        top: 11px;
+    }
+
+    &__clear {
+        position: absolute;
+        right: 10px;
+        top: 11px;
+        cursor: pointer;
+    }
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 90vw;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    left: 5vw;
+    top: 5vh;
+    border-radius: 5px;
+
+    &__header {
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+
+        &__title {
+            font-size: 20px;
+            flex: 1;
+        }
+
+        &__close {
+            cursor: pointer;
+        }
+    }
+
+    &__body {
+        flex: 1;
+        display: flex;
+        height: calc(100vh - 20vh - 50px);
+    }
+}
+
+.renditions {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    &__sidebar {
+        width: 230px;
+        background-color: #ccc;
+        overflow: auto;
+
+        &__item {
+            padding: 10px;
+            cursor: pointer;
+
+            &.active {
+                background-color: white;
+            }
+        }
+    }
+
+    &__body {
+        flex: 1;
+        display: flex;
+        align-items: center;
+
+        & * {
+            margin: auto;
+            max-width: 90%;
+            max-height: 90%;
+        }
+    }
+}

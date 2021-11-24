@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div>
+  <div
+    class="page container"
+  >
+    <nav
+      class="navbar navbar-expand navbar-light"
+      data-testid="navbar"
+    >
+      <div
+        class="container"
+      >
+        <a
+          class="navbar-brand"
+          href="#"
+        >
+          GIPHY-DEMO
+        </a>
+      </div>
+    </nav>
+    <div
+      class="giphy-home container"
+      data-testid="giphy-home"
+    >
+      <form
+        class="search"
+      >
+        <input
+          class="search__input form-control"
+          data-testid="input"
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+        <svg
+          class="search__icon icon"
+        >
+          <use
+            xlink:href="#undefined"
+          />
+        </svg>
+        
+      </form>
+      <div
+        class="grid"
+        data-testid="grid"
+      >
+        <div
+          class="grid__header"
+        >
+          <svg
+            class="undefined icon"
+          >
+            <use
+              xlink:href="#undefined"
+            />
+          </svg>
+          <span>
+            Trending
+          </span>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          />
+          <div
+            class="col"
+          />
+        </div>
+        <div
+          class="grid__loader"
+        >
+          <div
+            class="spinner-border"
+          />
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;

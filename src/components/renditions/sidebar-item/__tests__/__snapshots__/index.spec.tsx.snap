@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarItem /> When isActive is false should match snapshot 1`] = `
+<div>
+  <div
+    class="renditions__sidebar__item "
+    data-testid="sidebar-item"
+  >
+    Captain America
+  </div>
+</div>
+`;
+
+exports[`<SidebarItem /> When isActive is true should match snapshot 1`] = `
+<div>
+  <div
+    class="renditions__sidebar__item active"
+    data-testid="sidebar-item"
+  >
+    Captain America
+  </div>
+</div>
+`;
