@@ -21,7 +21,7 @@ describe('Giphy Demo', () => {
     })
 
     describe('Renditions', () => {
-        it.only('should show the renditions in the modal and should be able to browse through the renditions', () => {
+        it('should show the renditions in the modal and should be able to browse through the renditions', () => {
             cy.visit('localhost:3001')
             cy.get('[data-testid="modal"]').should('have.length', 0)
             cy.screenshot()
