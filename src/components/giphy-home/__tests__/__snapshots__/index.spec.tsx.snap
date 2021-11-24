@@ -114,7 +114,6 @@ exports[`<GiphyHome /> When search is used should match snapshot 1`] = `
         class="col"
       />
     </div>
-    <div />
   </div>
 </div>
 `;
