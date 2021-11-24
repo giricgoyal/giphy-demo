@@ -1,42 +1,37 @@
-# TypeScript React Redux Bootstrap Sass Webpack Starter
+# Giphy Demo
 
-This repository 
-* is a single page application with React and Redux using TypeScript
-* uses Bootstrap framework and Sass as preprocessor
-* testing with Jest and Enzyme
-* uses webpack as module bundler
+[Demo](http://giphy.demos.giricgoyal.com/index.html)
 
-# Install python
+What you can do with the demo:
+1. See the trending gifs.
+2. Search for gifs.
+3. Browse through the renditions.
 
-node-sass uses python, so please install python using
 
-```shell
-npm --add-python-to-path='true' --debug install --global windows-build-tools
-```
+## Pre-requisites
+1. git
+2. yarn
+3. node
 
-# Running application locally
-
-```shell
-npm install
-```
-NOTE: Without performing Install python step, npm install would fail
+## Running application locally
 
 ```shell
-npm run build:dev
+yarn
 ```
 
 ```shell
-npm run start
+yarn start
 ```
 NOTE: Will start the application in localhost:3001 using webpack dev server
 
-# Testing the project
+## Testing the project
 
 Updating snapshot
 ```shell
-npm run test:update-snapshot
+yarn test:update-snapshot
 ```
 
+Running unit tests
 ```shell
-npm run test
+yarn test
 ```
