@@ -35,3 +35,24 @@ Running unit tests
 ```shell
 yarn test
 ```
+
+Running e2e tests
+```shell
+yarn start
+```
+
+```shell
+yarn e2e
+```
+
+
+### Testing notes
+Unit tests cover most of the use cases except the pagination.
+Pagination is covered by e2e tests and the search and renditions workflows.
+
+## Create prod bundle
+
+```shell
+yarn build:prod
+```
+This will generate a dist folder which can be deployed on a web server.
