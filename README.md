@@ -1,5 +1,7 @@
 # Giphy Demo
 
+[Demo](http://giphy.demos.giricgoyal.com/index.html)
+
 What you can do with the demo:
 1. See the trending gifs.
 2. Search for gifs.
